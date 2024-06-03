@@ -590,4 +590,49 @@ transform: translateY(0);
     background-color: #31d0aa;
 }
 
+.div-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.form-email {
+    
+}
+
+.form-label {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #fff;
+        
+}
+
+.form-input {
+    border: 1px solid #fff;
+        border-radius: 4px;
+        width: 264px;
+        height: 40px;
+        background: #2e2f42;
+        
+        
+}
+
+.address-btn {
+    background: #4d5ae5;
+    border-radius: 4px;
+        padding: 8px 24px;
+        width: 165px;
+        height: 40px;
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+}
+
+.icon-form {
+    fill: #fff;
+    
+}
 
