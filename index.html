@@ -479,18 +479,24 @@
             </li>
           </ul>
         </div>
-          <div class="div-form">
-          <form class="form-email" name="form-email-address" autocomplete="off">
-            <label class="form-label"
-              >Subscribe
-              <input class="form-input" type="text" name="email-address" />
+        <div class="div-form">
+          <p class="text-subscribe">Subscribe</p>
+          <form class="form">
+            <label class="form-label">
+              <input
+                class="form-input"
+                type="email"
+                name="email-address"
+                placeholder="E-mail"
+              />
             </label>
+            <button class="form-btn" type="submit">
+              Subscribe
+              <svg width="24" height="24" class="icon-form">
+                <use href="./images/icons.svg#icon-Frame-3telegram"></use>
+              </svg>
+            </button>
           </form>
-          <button type="submit" class="address-btn">
-            Subscribe
-          <svg width="24" height="24" class="icon-form">
-                  <use href="./images/icons.svg#icon-Frame-3telegram"></use>
-                </svg>
         </div>
       </div>
     </footer>
