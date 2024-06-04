@@ -620,6 +620,9 @@ transform: translateY(0);
             box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
+input::placeholder {
+    color: #fff;
+}
 
 .form-btn{
     border-radius: 4px;
@@ -645,11 +648,35 @@ transform: translateY(0);
     margin-left: 16px;
 fill: #fff;
 }
+/* ---------FORM------------------------ */
 
+.backdrop{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    
+}
+.model{
+    border-radius: 4px;
+        width: 408px;
+        min-height: 584px;
+        background-color: #fcfcfc;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+.btn-close{
+border-radius: 100%;
+    fill: #e7e9fc;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.1);
+}
 
-
-
-
-
-
-
+.icon-close{
+    border-radius: 4px;
+        width: 8px;
+        height: 8px;
+        fill: #2e2f42;
+}
