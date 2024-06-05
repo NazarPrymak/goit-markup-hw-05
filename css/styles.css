@@ -704,6 +704,11 @@ margin-bottom: 8px;
 .label-name{
     display: block;
     margin-bottom: 4px;
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: 0.04em;
+        color: #8e8f99;
 }
 
 .input-form{
