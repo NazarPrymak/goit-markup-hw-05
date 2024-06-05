@@ -734,7 +734,7 @@ fill: #ffffff
 
 .modal-field{
 
-margin-bottom: 16px
+margin-bottom: 8px;
 }
 
 .label-name{
@@ -808,7 +808,7 @@ font-weight: 400;
             text-align: center;
             color: #fff;
             position: absolute;
-            bottom: 12px;
+            bottom: 24px;
             right: 120px;
             cursor: pointer;
             border: none;
