@@ -697,12 +697,13 @@ border-radius: 50%;
 .btn-close:hover {
 background-color: #404bbf;
 border: none;
+fill: #ffffff
 
 }
 .btn-close:focus{
 background-color: #404bbf;
     border: none;
-
+fill: #ffffff
 }
 
 .icon-close{
@@ -734,7 +735,7 @@ fill: #ffffff
 
 .modal-field{
 
-margin-bottom: 8px;
+margin-bottom: 16px;
 }
 
 .label-name{
@@ -808,7 +809,7 @@ font-weight: 400;
             text-align: center;
             color: #fff;
             position: absolute;
-            bottom: 24px;
+            bottom: 12px;
             right: 120px;
             cursor: pointer;
             border: none;
