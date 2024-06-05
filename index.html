@@ -555,7 +555,7 @@
             </div>
           </div>
           <div class="modal-field">
-            <label class="label-form"
+            <label class="label-form" for="user-comment"
               ><span class="label-name">Comment</span>
             </label>
             <textarea
@@ -564,6 +564,19 @@
               id="user-comment"
               placeholder="Text input"
             ></textarea>
+          </div>
+          <div class="box-private-policy">
+            <input
+              class="input-user-privacy visually-hidden"
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="label-user-privacy" for="user-privacy"
+              >I accept the terms and conditions of the
+              <span class="span-privacy-policy"></span
+            ></label>
           </div>
           <button class="send-btn" type="submit">Send</button>
         </form>
