@@ -841,8 +841,10 @@ font-weight: 400;
     margin-bottom: 24px;
 }
 
-.input-user-privacy{
-    
+.input-user-privacy:checked + .label-user-privacy span {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;;
 }
 .label-user-privacy{
     font-weight: 400;
@@ -866,6 +868,9 @@ font-weight: 400;
         justify-content: center;
         fill: transparent;
 
+}
+.privacy-policy-link{
+    color: #4d5ae5;
 }
 
 
