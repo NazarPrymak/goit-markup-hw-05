@@ -34,7 +34,7 @@ img{
 }
 section{
     padding: 120px 0;
-    max-width: 1440px;
+    /* max-width: 1440px; */
 }
 
 .container {
@@ -48,7 +48,7 @@ width: 1158px;
 .header{
 border-bottom: 1px solid #e7e9fc;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-max-width: 1440px;
+/* max-width: 1440px; */
 
 }
 
@@ -167,7 +167,7 @@ font-family: "Raleway", sans-serif;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    
+    max-width: 1440px;
 }
 
 .title{
