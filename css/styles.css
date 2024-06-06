@@ -743,8 +743,12 @@ background-color: #404bbf;
 
 .modal-field{
 
-margin-bottom: 16px;
+margin-bottom: 8px;
 }
+.modal-comment{
+    margin-bottom: 16px;
+}
+
 
 .label-name{
     display: block;
